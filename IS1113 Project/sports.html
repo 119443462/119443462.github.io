@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="em">
+
+   <head>
+   <!--Latest compiled and minified CSS -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery ImageScroll Plugin Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#container {
+  overflow: hidden;
+  width: 800px;
+  height: 230px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:150px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 200%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+</ul>
+
+
+</div>
+</div>
+<div id="container"> <span class="title">Sports</span>
+  <ul id="imgs">
+    <li><img src="dancer.jpg" alt="" /></li>
+    <li><img src="football.jpg" alt="" /></li>
+    <li><img src="gym.jpg" alt="" /></li>
+    <li><img src="drama.jpg" alt="" /></li>
+    <li><img src="camogie.jpg" alt="" /></li>
+    <li><img src="mardyke.jpg" alt="" /></li>
+    <li><img src="ballet.jpg" alt="" /></li>
+  </ul>
+  <span class="title"></span> </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="ImageScroll.js"></script> 
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+   
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+
+
+   </head>
+   
+   <style>
+     body {
+	       background-color: PowderBlue
+    } 
+	div { 
+		  backgroundcolor: rgb(182, 216, 216)
+	} 
+	</style>
+	
+	<body>
+	   <h1 align="center" style="color:white; font-family:georgia,garamond,serif;font-size:16px;font-style:italic; font-size:50px"><u>Interests</u></h1>
+	   
+	  <h2 align = "center" style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic; font-size:25px;"><i>Sports</i></h2>
+	  
+	 <div align="center" style="font-family:georgia,garamond,serif;font-size:16px;">
+	     <br />
+		 <p> - I attended dance and musical theatre lessons in the Firkin Crane between the ages of 3 until I was 17. Musicals and drama are passions of mine and I have partaken in many musical productions. Some of which include Beauty and the Beast, Alice in Wonderland, Les Miserables, Miss Saigon, Blood Brothers, CHICAGO, and many more. I now am a current member of the UCC Dance Society and attend weekly classes in the Mardyke.</p>
+		<br />
+		<br />
+		<p> - I played Gaelic Football and Camogie throughout primary and secondary school. I played with Brian Dillons GAA club as well as my school teams. I often go to watch Cork GAA matches also in the newly done up Pairc Ui Caoimh. Since going into college I have not played competively however I intend on joining the UCC GAA Club next semester.</p>
+		 <br />
+		 <br />
+		 <p> - I enjoy going to the gym to exercise also. UCC students get free membership in the Mardyke Gym, which I get great use of. </p>
+	     
+		
+	   <a href="home2.html" title="Home">Home</a><br />
+	   <a href="travel.html" title="Travel">Travel</a><br />
+	   </body>
+	
+	</html>

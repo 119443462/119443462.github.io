@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="em">
+
+   <head>
+   <!--Latest compiled and minified CSS -->
+   
+<html>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Travel</title>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+     <style type="text/css">
+#container {
+  overflow: hidden;
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:150px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 400%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div id="container"> <span class="title">Travel</span>
+  <ul id="imgs">
+    <li><img src="nyc.jpg" alt="" /></li>
+    <li><img src="kids.jpg" alt="" /></li>
+    <li><img src="London.jpg" alt="" /></li>
+    <li><img src="bridge.jpg" alt="" /></li>
+    <li><img src="sierraleone.jpg" alt="" /></li>
+    <li><img src="paris.jpg" alt="" /></li>
+    <li><img src="portugal.jpg" alt="" /></li>
+  </ul>
+  <span class="title"></span> </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="ImageScroll.js"></script> 
+
+
+
+   </head>
+   
+   <style>
+     body {
+	       background-color: PowderBlue
+    } 
+	div { 
+		  backgroundcolor: rgb(182, 216, 216)
+	} 
+	</style>
+	
+	<body>
+	   <h1 align="center" style="color:white; font-family:georgia,garamond,serif;font-size:16px;font-style:italic; font-size:50px"><u>Interests</u></h1>
+	   
+	  <h2 align = "center" style="font-family:georgia,garamond,serif;font-size:16px;font-style:italic; font-size:25px;"><i>Travel</i></h2>
+	  
+	 <div align="center" style="font-family:georgia,garamond,serif;font-size:16px;">
+	     <br />
+		 <p> - Travel is probably the hobby or interest I am most passionate about. My dad works abroad and travels around Europe with his job and so I have been raised to enjoy seeing different parts of the world and experiencing many different cultures. I have travelled to many different countries and cities.</p>
+		<br />
+		<br />
+		<p> - In 2018 I travelled to Sierra Leone in Africa with a charity called The School's and Health Foundation. While there, we visited the 5 schools we had fundrasied and built in various villages in Sierra Leone. It was a lifechanging experience which I absolutely adored. I  intend on travelling to Sierra Leone in 2021 and am looking forward to it greatly.</p>
+		 <br />
+		 <br />
+		 <p> - In 2017 I visted New York City in the USA. This was most definitely my favorite city I have visted. While there I saw all the main tourist attractions such as the Empire State Building, the World Trade Center and the 9/11 memorial, the Statute of Liberty and more.   </p>
+	     <br />
+		 <br />
+		 <p> - Other Countries I have visited include England, Frace, Spain, Portugal, Italy, Germany, Austria, Belgium, Greece, and Crotia. 
+		<br/>
+	   <br/>
+	   <br/>
+	   <br/>
+	   <br/>
+	   <a href="home2.html" title="Home">Home</a><br />
+	   <a href="sports.html" title="Travel">Sports</a><br />
+	   
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:800,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+     
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	   
+	   </body>
+	
+	</html>

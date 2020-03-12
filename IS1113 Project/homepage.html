@@ -1,0 +1,160 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>Div Tags for Layout - Example</title>
+
+
+<style type="text/css">
+
+
+#banner{
+position: relative;
+
+top: 0px;
+left: 0px;
+
+right: 0px;
+
+height:20%;
+width:100%;
+
+background-color:White;
+border: solid thin black;
+
+text-align:center;
+}
+
+#divcontainer{
+position: relative;
+
+top: 0px;
+left: 0px;
+
+right: 0px;
+
+height:100%;
+width:100%;
+}
+
+#navpanel{
+position: absolute;
+
+top: 0%;
+left: 0%;
+
+right: 0%;
+
+height:80%;
+width:20%;
+
+background-color: lightblue;
+border: dashed thin black;
+
+}
+
+
+#content{
+position: absolute;
+
+top:0%;
+left:20%;
+
+right: 0%;
+
+height:80%;
+width:80%;
+
+
+background-color: lightblue;
+border: solid thin black;
+     
+}
+
+.tooltip {
+/* container for tooltip */
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: red;
+  text-align: center;
+//  border-radius: 6px;
+//  padding: 5px 0;
+
+  /* Position the tooltip to the foreground using the 3rd axis (z)*/
+  position: absolute;
+  z-index: 1;
+}
+
+
+/* make tooltip visable upon hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+<div id="banner">
+  <h1> Nicole Amy Murphy CV Application </h1>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+<div></div>
+<div></div>
+
+</body>
+<div id="divcontainer">
+
+<div id="navpanel">
+ <b>Contents</b><br />
+  <a href="PersonalDetails.html" title="Circumlum Vitae">Circumlum Vitae</a><br />
+ <p> <a href="Interests.html" title="Interests">Interests</a> </p>
+<p> <a href="home2.html" title="Strategic Consulting Services Online Shop">Strategic Consulting Services Online Shop </a> <</p>
+</div>
+
+ 
+<div id="content">
+  <h3>This div is the content area.</h3>
+  <p>Some text here</p>
+  <p>Some more text here</p>
+  <p>etc<br /> </p>
+<div class="tooltip"> Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>

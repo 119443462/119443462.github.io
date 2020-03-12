@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="em">
+
+   <head>
+   <!--Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+   </head>
+   
+   <style>
+     body {
+	       background-color: lightblue
+    } 
+	div { 
+		  backgroundcolor: rgb(182, 216, 216)
+	} 
+	</style>
+	
+	<body>
+	   <h1 align="center" style="color:white;">Educational Details</h1>
+	   
+	   <div align="center">
+	       <p></p>
+		   <p>First Name: Nicole</p>
+		   <P>Address: ** ****** ****</p>
+		   <p>Town: ****</p>
+		   <p>Postcode: *******</p>
+		   <p>Telephone: (***) *******</p>
+		   <p>Email: 119443462@umail.ucc.ie</p>
+		   <p>Date of Birth: **/**/****</p>
+		   <p>PPS Number: ******</p>
+		   
+		   
+	   <a href = "CVPage2.html"> Page2: Educational Details </a>
+	   </body>
+	
+	</html>
+	

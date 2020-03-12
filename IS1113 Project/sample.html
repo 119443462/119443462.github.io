@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interests</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #B49977;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #C3AF91;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+</style>
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#container {
+  overflow: hidden;
+  width: 800px;
+  height: 230px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:150px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 200%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="header">
+  <h1>My Interests - Sports </h1>
+</div>
+
+<div class="navbar">
+  <a href="Opening.html">Home</a>
+   <a href="index.html">Curriculum Vitae </a>
+</div>
+
+<div class="navbar">
+  <a href="sports.html">Sports</a>
+  <a href="travel.html">Travel</a>
+  <a href="IoT.html">IoT</a>
+</div>
+
+
+
+<div class="container">
+ <span class="title">Sports</span>
+  <ul id="imgs">
+    <li><img src="https://www.greektravel.com/greekislands/ios/ios-greece01.jpg" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=488" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=487" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=486" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=485" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=484" alt="" /></li>
+    <li><img src="https://unsplash.it/800/600?image=483" alt="" /></li>
+  </ul>
+  <span class="title"></span> </div>
+<div id="controler"> </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="lib/ImageScroll.js"></script>
+<script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+      $(this).next("span").text("CallbackDisplay: hidden "+ordinal+"!");
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</div>
+
+
+</body>
+</html>
