@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 160%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: lightblue;}
+#Hyperautomation{background-color: tomato;}
+#Multiexperience{background-color: lightgreen;}
+#DistributedCloud{background-color: orange;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'paleblue')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Hyperautomation', this, 'tomato')">Hyperautomation</button>
+<button class="tablink" onclick="openPage('Multiexperience', this, 'lightgreen')">Multiexperience</button>
+<button class="tablink" onclick="openPage('DistributedCloud', this, 'orange')">DistributedCloud</button>
+
+<div id="Home" class="tabcontent" style="font-family: casteller;font-size:20px;">
+   <h1 align="center" style="color:white; font-family:,garamond,serif;font-size:16px; font-size:50px">Nicole's Consulting Service</h1>
+  <h2 align = "center" style=" color:white; font-family:georgia,garamond,serif;font-size:16px;font-style:italic; font-size:25px;"><i>Time to build your Brand</i></h2>
+  <h2>About Us</h2>
+<p>Implementing an effective digital strategy across front-, middle- and back-office IT environments is crucial to staying relevant. We help clients set strategies in motion that unify business and technology architectures, generate growth and enable competitive advantage.</p>
+
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="office.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="hands.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="computer.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+<p align="center" >Slide Show </p>
+</div>
+<h2> Our IT Consultancy Services include:</h2>
+<p>- IT strategy development</p>
+<p>- Strategy implementation assistance and support</p>
+<p>- System selection and procurement</p>
+<p>- Policy and procedure development</p>
+<p>- User requirements assessment and functional specification</p>
+<p>- Facilitation of the implementation of large systems</p>
+<p>- Programme and project management and facilitation</p>
+<p>- Testing and quality assurance</p>
+<p>- IT related due diligence reviews</p>
+<p>- IT related organisation, project and value for money review</p>
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+	 <div align="center" style="font-family:georgia,garamond,serif;font-size:16px;"color:white;>
+<a href = "home2.html"> Back to Project Homepage </a>
+</div>
+</div>
+
+<div id="Hyperautomation" class="tabcontent">
+  <h1 "font-size:10px; font-size:50px">What is Hyper Automation?</h1>
+  <p>Hyperautomation brings together several components of process automation, integrating tools and technologies that amplify the ability to automate work. It starts with robotic process automation (RPA) at its core, and expands automation capability with artificial intelligence (AI), process mining, analytics, and other advanced tools.The idea is to automate more and more knowledge work, and engage everyone in an organization to be part of the transformation.How is hyperautomation important for enterprises looking to scale automation much more effectively?</p>
+ <br />
+<h2 "font-size:10px; font-size:50px">Why do some fear Hyper Automation?</h2>
+<p>Digitization of processes, improved connectivity with the help of the Internet, and smarter machines with artificial intelligence has led the world into an age of hyper-automation. As a result, today, the expansion of hyper-automation cannot be neglected. Though automation may sound easy and manageable in theory, its execution is tough and complicated in the real world. Hyper automation has taken the concept of automation to a level where businesses need to keep a strict vigilance. If any business would make the mistake of taking hyper automation for granted, there are high chances the business will fall out of competition. In fact, physical process companies cannot afford to not pay heed to the expansion of hyper-automation. These companies should necessarily identify the scope of automation in their business at the earliest.</p>
+	      <br />
+
+
+		  
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<div align="center"
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 300%;
+  max-width: 700px;
+}
+
+.image {
+  align: center; 
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+ <br />
+<div class="container">
+  <img src="hyperauto.jpg" alt="Avatar" class="image">
+  <div class="overlay">The process of Hyperautomation</div>
+</div>
+ <br />
+<h2 "font-size:10px; font-size:30px">How Hyperautomation can be used to advantage</h2>
+  <p>Hyper automation is a tremendous tool to uplift your business. Once incorporated into the business, automation can help optimize business growth in the following ways:</p>
+<p>- Automation reduces human effort by doing a lot of work in lesser amount of time</p>
+<p>- Automation can reduce the risk of human errors as machines are calibrated for precision</p>
+<p>- Automation can also improve the quality of jobs by eliminating tedious, tiring, and dangerous for humans processes</p>
+<p>- Automation leads to increased productivity and higher output</p> 
+<br />
+<h2 "font-size:10px; font-size:50px">How does Hyper Automation work?</h2>  
+		<p> Hyper-automation goes beyond just one piece of software. As such, it entails that businesses adopt tools that can be set up to work with one another. The case for interoperability, or the ease at which software can communicate with one another, is now more critical than ever. </p>
+		<p>Not only will you want single software solutions that are easy-to-use and scalable, but you will also need to consider how the addition of a tool will work with your existing methods of operating. You’ll want to introduce tools that are “plug and play” solutions, which can pull data from different sources and can use APIs to talk to your existing software.</p>
+<br />
+
+<h2 "font-size:10px; font-size:50px">However it's more than Automating Tasks</h2> 
+<p>Hyper-automation does not just refer to implementing tools to manage tasks. It requires collaboration between humans, as well. This is because humans are vital decision-makers and can use the technology to interpret data and apply logic. </p>
+<p>For example, let’s imagine the case of social media and customer retention. A business can rely on tools that leverage RPA and machine learning to produce reports and pull data from social platforms to attain customer sentiment. As such, reports will be generated, and there will be information readily available for the marketing team. But, it will then require that the marketing team uses these insights to consider what type of campaigns, promotions and incentives to incorporate into a business plan to hold onto satisfied customers and attempt to salvage those who feel dissatisfied. </p>
+
+</div>
+
+<div id="Multiexperience" class="tabcontent">
+  <h1 "font-size:10px; font-size:50px">What is Multiexperience?</h1>
+  <p>Multi-experience development platforms (MXDPs) help enterprises to rapidly scale their applications across a range of devices and platforms. MXDPs can help you develop a single application that can be deployed on a variety of devices. This greatly shortens down your efforts and gives brands more control over their digital experiences.</p>
+  <p>Buyers in the market are looking to address the challenge of building and delivering a sizable portfolio of mobile apps for customers, partners, and employees.
+
+They now are looking for complete user experience. It is no longer enough for them to simply interact with a mobile app or web application. </p>
+
+In short, multiexperience is about adapting to the increasing market of different devices and their respective experiences. Applications now need to run on different platforms and adapt easily, all while providing a consistent experience from a business perspective.
+
+Why is this relevant? For one, it’s because a few companies are already doing it and, for another, it’s because the average individual currently owns 3.2 different devices. In other words, it’s becoming the increasingly expected norm.</p>
+ <h2 "font-size:10px; font-size:50px">Reasons Why Enterprises are Moving Towards MXDPs</h2>
+<img src="multiexperience.jpg" alt="multi" width="300" height="600">
+<h3>1. Offer internal operational efficiencies</h3>
+<p>MXDPs help enterprises to support a large number of internal operations in a single space. With every process being present in one system, processes can be easily streamlined. MXDP enables organizations to create efficient, faster, and valuable digital experiences.</p>
+
+<h3>2. Reduce Time to Market for Mobile Apps</h3>
+<p>MXDPs can significantly improve development time by as much as 10 times. All because of the reusable code and streamlined design processes. And with faster releases, feedback cycles can also be shortened. This helps in creating and honing your digital experiences.</p>
+
+<h3>3.  Better Control over Actual Deployment</h3>
+<p>It takes a week to conduct a single cloud-based deployment. But with the right MXDP, information can be directly sent to your cloud-based server provider, such as Amazon Web Services. Plus, MXDPs are also going to provide a full-distributed environment on your behalf. Providing more efficiency by streamlining the deployment process.</p>
+
+<h3>4. Eliminate potential security Risk</h3>
+<p>With your application feeding on a single platform like MXDPs, you can get a 360 view of your software landscape. This can eliminate all the potential security risks like shadow IT that many organizations struggle with.</p>
+<br />
+<br />
+<h1 "font-size:10px; font-size:50px">Barriers in Multi-experience Development</h1>
+<p>The biggest barrier in building a multi-experience development platform is aligning the IT and the business experience. And more than 45% have recognized the lack of the skills of developers to build a fine multi-experience is a major barrier to project completion.</p>
+<p>“The skills gap with emerging technologies cannot be overstated when discussing inhibitors for scaling up digital initiatives, including the multi-experience development strategy,” says Jason Wong, Vice President, Research, Gartner.</p>
+<script>
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</div>
+
+<div id="DistributedCloud" class="tabcontent">
+  <h1>What is a Distributed Cloud</h1>
+  <p>A distributed cloud refers to having computation, storage, and networking in a micro-cloud located outside the centralized cloud. Examples of a distributed cloud include both fog computing and edge computing. Establishing a distributed cloud situates computing closer to the end user, providing decreased latency and opportunities for increased security. Potential security solutions include a blockchain-based security architecture or random auditing of data to check for integrity. A distributed cloud also processes data in real-time.
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container {
+  position: center;
+  width: 50%;
+  max-width: 500px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+ 
+}
+
+.overlay {
+  position: center; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="cloud.jpg" alt="Avatar" class="image">
+  <div class="overlay">An example of a distributed cloud infrastructure</div>
+</div>
+<br />
+<h2>Overview</h2>
+<p>The traditional cloud computing model offers on-demand, metered access to computing resources—storage, servers, databases, and applications—to users who do not want to build, buy, or run their own IT infrastructure. Public cloud service providers maintain and run large server farms whose resources are shared between users, with virtualization techniques that provide isolation and security of individual user data. Site redundancy across regions provides for recovery from outages and disasters, with all the monitoring and management aspects of keeping the cloud up and running transparent to cloud users.</p>
+<p>While distributed computing spreads computation workload across multiple, interconnected servers, distributed cloud computing generalizes this to the cloud infrastructure itself. A distributed cloud is an execution environment where application components are placed at appropriate geographically-dispersed locations chosen to meet the requirements of the application.</p>
+<H3>Such requirements include:</H3>
+<p><b>- Location:</b>  to enable more responsive and performant service delivery for certain types of applications, where latency is critical and bulk data transfer to and from a central cloud is expensive.</p>
+<p><b>- Regulations:</b> which may require that data never leaves the user’s country, as is the requirement in the EU.</p>
+<p><b>- Security:</b> to ensure that certain data and processes remain within an enterprise’s private cloud or data center, with which a public cloud is integrated.</p>
+<p><b>-Redundancy:</b> beyond that provided by local, regional, or national site redundancy to mitigate large scale outages that can affect enterprises.</p>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<img src="clouds.jpg" alt="clouds" style="width:50%;">
+
+</body>
+</p>
+<h2> Why Does Cloud Make Sense for You?</h2>
+<p>You may not realize that you use the cloud everyday, but social media and email platforms use the cloud technologies extensively. Consider this in regards your social media accounts. You keep a profile of information which you can manipulate, add to or delete from. However, the data is not located in your home, but on a remote server shared with thousands of other individual users.</p>
+<p>Applying this method to your business, you can house your information and data on an offsite server which is managed and protected by a third party provider. Distributed cloud computing from a managed services provider (MSP) is beneficial for many reasons.</p>
+<p>- The MSP has deep expertise, dedicated to making sure that technology advancements are implemented</p>
+<p>- The MSP monitors continually for cyber threats and criminal activity.</p>
+<p>- Your company can share the cost of hardware and software upgrades with other organizations.</p>
+<p>- Your company does not pay for more infrastructure than it actually needs.</p>
+<p>- Distributed computing (data in multiple remote locations) inherently provides a disaster recovery mechanism, and prevents your organization from losing data should the facility be destroyed.</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+  
+</body>
